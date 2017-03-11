@@ -1,4 +1,4 @@
-package java8.stringjoin;
+package java8.string_join;
 
 public class SampleStringJoin {
 
