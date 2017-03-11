@@ -20,14 +20,12 @@ public class SampleTryWithResources {
 			 Stream<String> lineStream = br.lines();
 			 lineStream.forEach(System.out::println);
 
-		} catch (FileNotFoundException e) {
+		} catch (IOException | NullPointerException e) {
+
+			// 例外のマルチキャッチ
 			e.printStackTrace();
 
-		} catch (IOException e) {
-			e.printStackTrace();
-
-		}
-
+			}
 	}
 
 	/**
