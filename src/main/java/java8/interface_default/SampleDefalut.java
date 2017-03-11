@@ -1,4 +1,4 @@
-package java8.ifdefault;
+package java8.interface_default;
 
 public interface SampleDefalut {
 
