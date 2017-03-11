@@ -1,5 +1,5 @@
 /**
- * 
+ * Java8のサンプル
  */
 /**
  * @author Kengo
